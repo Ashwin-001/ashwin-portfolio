@@ -2,6 +2,12 @@ import { motion } from 'framer-motion'
 
 const projects = [
   {
+    title: 'Object Detection on Caltech-101',
+    tech: ['PyTorch', 'ResNet', 'VGGNet'],
+    description:
+      'Implemented object classification using pretrained ResNet and VGGNet models. Achieved 74% accuracy across 101 diverse image categories.',
+  },
+  {
     title: 'Gains+ — Gym Management System',
     tech: ['React', 'PHP', 'MySQL'],
     description:
@@ -13,12 +19,7 @@ const projects = [
     description:
       'A full-stack personalized platform with chatbot, doctor portal, and user forums. Focused on improving mental health awareness through tech.',
   },
-  {
-    title: 'Object Detection on Caltech-101',
-    tech: ['PyTorch', 'ResNet', 'VGGNet'],
-    description:
-      'Implemented object classification using pretrained ResNet and VGGNet models. Achieved 74% accuracy across 101 diverse image categories.',
-  },
+  
 ]
 
 function Projects() {
